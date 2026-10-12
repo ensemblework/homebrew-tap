@@ -5,25 +5,25 @@ class Ensemble < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.0/ensemble-cli-0.3.0-darwin-arm64.tar.gz"
-      sha256 "39f5168d8ca791bff4c967a0ddd2a08d83c1ce48b6d536943ed41a1e786c6656"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.1/ensemble-cli-0.3.1-darwin-arm64.tar.gz"
+      sha256 "11585f1ad02439fd6a83f01a15dac58b903cbf7f681fd56c2edfdf9299005c57"
     end
 
     on_intel do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.0/ensemble-cli-0.3.0-darwin-x64.tar.gz"
-      sha256 "1f5cef01c44c895cb8b4c04640c11da726a8d08e665d8afc482a33ad285521a5"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.1/ensemble-cli-0.3.1-darwin-x64.tar.gz"
+      sha256 "8708ef61cf48858b8bd0521d9196600ef47a4a4cc13d1285b73840bdc56a41dc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.0/ensemble-cli-0.3.0-linux-arm64.tar.gz"
-      sha256 "50efb74133713d0876876acb8bfc2f2eb4c6a3660fb4483eecc29cdcf59a594f"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.1/ensemble-cli-0.3.1-linux-arm64.tar.gz"
+      sha256 "b029be3fff8fd04da3f0265f11ebbe779579f01fdd9eb47e44efaacb4174dc3c"
     end
 
     on_intel do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.0/ensemble-cli-0.3.0-linux-x64.tar.gz"
-      sha256 "85fae8df8c94ed93d8286ad8e0b3e90fedfc64ff478c1c765d939470a283aba1"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.1/ensemble-cli-0.3.1-linux-x64.tar.gz"
+      sha256 "b2b29f2c0cd656b0e146de209cfc06f9190c0fc9b45641c14c68d600a3fb1e31"
     end
   end
 
