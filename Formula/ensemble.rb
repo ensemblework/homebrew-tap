@@ -1,29 +1,33 @@
 class Ensemble < Formula
   desc "Ensemble CLI: run tasks assigned from ensemblework.com on your computer, and connect your editor to Ensemble over MCP."
   homepage "https://ensemblework.com/download"
+  # Explicit: from the URLs Homebrew would read "64" (darwin-arm64), so upgrades never showed.
+  # version_scheme 1 makes kegs installed as "64" count as outdated.
+  version "0.3.3"
+  version_scheme 1
   license "FSL-1.1-MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.2/ensemble-cli-0.3.2-darwin-arm64.tar.gz"
-      sha256 "ecf7f317e84723328ea0317bba864017ce320c3ccac2239a6e80e731c554ef86"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.3/ensemble-cli-0.3.3-darwin-arm64.tar.gz"
+      sha256 "6aec8f305a6ca6ff349744f33f49c7e98d886ffb44908dbcd52324594d56a5bc"
     end
 
     on_intel do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.2/ensemble-cli-0.3.2-darwin-x64.tar.gz"
-      sha256 "8c0304e882bf72a262b3ce6545c7db1c1f762f65e1c95722f9bdeb7e6c4021ca"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.3/ensemble-cli-0.3.3-darwin-x64.tar.gz"
+      sha256 "0efa2a6399897619092fc255a84e94cde477ae13fb97b3524b074e237c04cdd4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.2/ensemble-cli-0.3.2-linux-arm64.tar.gz"
-      sha256 "2968085185e16a70511ad01f641d47855c31199ac9b40c4253a42ce5b7704d2a"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.3/ensemble-cli-0.3.3-linux-arm64.tar.gz"
+      sha256 "380381b8a40ddb53e9f764907fd9a2b0635843979bc02d85e2fc9bc368627b03"
     end
 
     on_intel do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.2/ensemble-cli-0.3.2-linux-x64.tar.gz"
-      sha256 "3c6c520e33b1d6887f69b60a0b0dcc9cba68d0e70d88890583534020e4f7d37a"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.3/ensemble-cli-0.3.3-linux-x64.tar.gz"
+      sha256 "d6d6248efc1755103631ab12ce612c1ce397365ae8aaccac7ed24ecb081ba87d"
     end
   end
 
