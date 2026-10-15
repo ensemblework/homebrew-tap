@@ -3,31 +3,31 @@ class Ensemble < Formula
   homepage "https://ensemblework.com/download"
   # Explicit: from the URLs Homebrew would read "64" (darwin-arm64), so upgrades never showed.
   # version_scheme 1 makes kegs installed as "64" count as outdated.
-  version "0.3.9"
+  version "0.3.10"
   version_scheme 1
   license "FSL-1.1-MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.9/ensemble-cli-0.3.9-darwin-arm64.tar.gz"
-      sha256 "6c13537313d4075de16defa9f75c12b24d07c095707ddde47d0f00f40f61890a"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.10/ensemble-cli-0.3.10-darwin-arm64.tar.gz"
+      sha256 "ef31d80e158ec1f83f504cd9648e9f740757aed43eef8695d3413c4731b6c606"
     end
 
     on_intel do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.9/ensemble-cli-0.3.9-darwin-x64.tar.gz"
-      sha256 "3e3e18de75db65885b955cc2d5129fdd742085555ecea74eb9bbbe62f8ee1dcd"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.10/ensemble-cli-0.3.10-darwin-x64.tar.gz"
+      sha256 "e1c281c955a6731471af5d7ecff372862728fc8445a4953630a8f4e1bf7df412"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.9/ensemble-cli-0.3.9-linux-arm64.tar.gz"
-      sha256 "63d1d44f50a94c690694193d7928f094b757e183bc60586196f2994ad54dea8d"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.10/ensemble-cli-0.3.10-linux-arm64.tar.gz"
+      sha256 "37d5ccab415d29fbf595b527c6077ade5e79bccfa4fd26e4d2648a3bda9c1d80"
     end
 
     on_intel do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.9/ensemble-cli-0.3.9-linux-x64.tar.gz"
-      sha256 "e24e2c4a32b9c2bcfeed06dc7f76cf2c9b1359971dcb1e5a4b4b2dfa43682bff"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.3.10/ensemble-cli-0.3.10-linux-x64.tar.gz"
+      sha256 "88cb59f6f1102f27be4f32234d5478d7ec9787efc830cb802d593b5bef669e47"
     end
   end
 
