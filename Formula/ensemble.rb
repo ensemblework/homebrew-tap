@@ -3,31 +3,31 @@ class Ensemble < Formula
   homepage "https://ensemblework.com/download"
   # Explicit: from the URLs Homebrew would read "64" (darwin-arm64), so upgrades never showed.
   # version_scheme 1 makes kegs installed as "64" count as outdated.
-  version "0.4.8"
+  version "0.4.9"
   version_scheme 1
   license "FSL-1.1-MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.4.8/ensemble-cli-0.4.8-darwin-arm64.tar.gz"
-      sha256 "f0e3b4e5eb7ce32449544d9d01d5d8e4eddc173cc1ee50dda895d12dce1f0575"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.4.9/ensemble-cli-0.4.9-darwin-arm64.tar.gz"
+      sha256 "dd4cdcbf57c5c60ac9c9d1a887aacb7fc38e799fd47a4f1f4f0d4ed61150e64e"
     end
 
     on_intel do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.4.8/ensemble-cli-0.4.8-darwin-x64.tar.gz"
-      sha256 "ab8e3004621c030ea579b90ebd7413f3c96c954eef63f28c8fe8e3f70e7db643"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.4.9/ensemble-cli-0.4.9-darwin-x64.tar.gz"
+      sha256 "69b1fb14a256fda42ac6e83dd5e9d6718a6f0b48c2a9a7643270b1658c359f16"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.4.8/ensemble-cli-0.4.8-linux-arm64.tar.gz"
-      sha256 "72273ef86b64f55b1075746f8b86a55346250f30149aa46846cf2fa028d6dcf2"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.4.9/ensemble-cli-0.4.9-linux-arm64.tar.gz"
+      sha256 "b4d1101482e0a9743e6993428b3abaa8c9b7616444f8e077fac62ba5135a69c3"
     end
 
     on_intel do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.4.8/ensemble-cli-0.4.8-linux-x64.tar.gz"
-      sha256 "35f92794c583e90f026bcab7cc940a23dac04a04bb0da855b34f9e188c02d60c"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.4.9/ensemble-cli-0.4.9-linux-x64.tar.gz"
+      sha256 "157a574b4ab289909c4fc6226d54af2ac43599c86a98e4425562c61383507c9b"
     end
   end
 
