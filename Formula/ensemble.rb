@@ -3,31 +3,31 @@ class Ensemble < Formula
   homepage "https://ensemblework.com/download"
   # Explicit: from the URLs Homebrew would read "64" (darwin-arm64), so upgrades never showed.
   # version_scheme 1 makes kegs installed as "64" count as outdated.
-  version "0.7.4"
+  version "0.7.5"
   version_scheme 1
   license "FSL-1.1-MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.4/ensemble-cli-0.7.4-darwin-arm64.tar.gz"
-      sha256 "d7aa35112ed401428e2f3d8d0be1b7cdf9787ee55f3c093bd745e05d792ef32d"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.5/ensemble-cli-0.7.5-darwin-arm64.tar.gz"
+      sha256 "850898f11ff38f419d91b4512037f277c2a3dc696734b3d05312b3e59da1d4b4"
     end
 
     on_intel do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.4/ensemble-cli-0.7.4-darwin-x64.tar.gz"
-      sha256 "b94868f5f2ab49c2089d5a753846508453bdbabfa634748bd18906cd860ed252"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.5/ensemble-cli-0.7.5-darwin-x64.tar.gz"
+      sha256 "b77b2eead174c1f4aa70f1a0285ca5dfaef5a240febe26b61174678c286497d9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.4/ensemble-cli-0.7.4-linux-arm64.tar.gz"
-      sha256 "46565d77e7a60e082f2e04edcc1bae1e4c6adb6de15b6ad40a6d4d9e90812457"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.5/ensemble-cli-0.7.5-linux-arm64.tar.gz"
+      sha256 "07873952fa16c1bc61c78bccd245717319d640ad4b3c7bb67cba35b0af587a67"
     end
 
     on_intel do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.4/ensemble-cli-0.7.4-linux-x64.tar.gz"
-      sha256 "be2b6df9a3ba51c35f670f94f5edffe6071fc289c2334cfc3870d804a0be2a1c"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.5/ensemble-cli-0.7.5-linux-x64.tar.gz"
+      sha256 "698c3c0cba4441f2006a1c90bb82c34a343df6b9c0aabdcde6efb46593d5f5fc"
     end
   end
 
