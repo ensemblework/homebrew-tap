@@ -3,31 +3,31 @@ class Ensemble < Formula
   homepage "https://ensemblework.com/download"
   # Explicit: from the URLs Homebrew would read "64" (darwin-arm64), so upgrades never showed.
   # version_scheme 1 makes kegs installed as "64" count as outdated.
-  version "0.7.6"
+  version "0.7.7"
   version_scheme 1
   license "FSL-1.1-MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.6/ensemble-cli-0.7.6-darwin-arm64.tar.gz"
-      sha256 "df6f686e737835c697fc3cda86979034564d6e9585b6139205b11441c6f6c4aa"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.7/ensemble-cli-0.7.7-darwin-arm64.tar.gz"
+      sha256 "1062e84dbb68ef959dd9fb1294cb1c8a428ccbd54a534a15441f814ed57748f2"
     end
 
     on_intel do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.6/ensemble-cli-0.7.6-darwin-x64.tar.gz"
-      sha256 "ec6fca9a24c4fd7cd67b5e222a5496e72afb7dd3c32999f40e99fbfa01a0d81f"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.7/ensemble-cli-0.7.7-darwin-x64.tar.gz"
+      sha256 "7695d5e51b71665ab02d1b1f61843ffad52de3e9484c44608437d51e03a62fc6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.6/ensemble-cli-0.7.6-linux-arm64.tar.gz"
-      sha256 "a7ca070600bcc2e8103addaee2244866dd24828d20b2a18f29c7356d423884f4"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.7/ensemble-cli-0.7.7-linux-arm64.tar.gz"
+      sha256 "8f3f9b8996515985300f9bca7d73eb0fbd9f503d4c218f413fd98304f8c6b983"
     end
 
     on_intel do
-      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.6/ensemble-cli-0.7.6-linux-x64.tar.gz"
-      sha256 "4749c7031b97e84b24c3f00cf5180fa21fb6ded7d0a156a9fe33c9ac0932c606"
+      url "https://github.com/ensemblework/ensemble/releases/download/cli-v0.7.7/ensemble-cli-0.7.7-linux-x64.tar.gz"
+      sha256 "1800710eb350a0b60e3b90acc421b6990011a1845f2e2b6e0db2c7d11e088c22"
     end
   end
 
